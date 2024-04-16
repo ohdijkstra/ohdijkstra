@@ -1,0 +1,157 @@
+baseURL = 'https://ohdijkstra.github.io/'
+title = 'UWin AI'
+theme = 'stack'
+disqusShortname = "uwinai"
+
+DefaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+    identifier = "home"
+    [menu.main.params]
+        icon = "home"
+        newTab = false
+
+  [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 20
+    identifier = "archives"
+    [menu.main.params]
+        icon = "archives"
+        newTab = false
+
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 30
+    identifier = "search"
+    [menu.main.params]
+        icon = "search"
+        newTab = false
+
+  [[menu.main]]
+    name = "Link"
+    url = "https://github.com/bw4uf"
+    weight = 40
+    identifier = "link"
+    [menu.main.params]
+        icon = "link"
+        newTab = true  # Opens this link in a new tab
+
+[languages.en.menu]
+
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "/en/"
+    weight = 10
+    identifier = "home"
+    [languages.en.menu.main.params]
+        icon = "home"
+        newTab = false
+
+  [[languages.en.menu.main]]
+    name = "Archives"
+    url = "/en/archives/"
+    weight = 20
+    identifier = "archives"
+    [languages.en.menu.main.params]
+        icon = "archives"
+        newTab = false
+
+  [[languages.en.menu.main]]
+    name = "Search"
+    url = "/en/search/"
+    weight = 30
+    identifier = "search"
+    [languages.en.menu.main.params]
+        icon = "search"
+        newTab = false
+
+  [[languages.en.menu.main]]
+    name = "Link"
+    url = "https://github.com/bw4uf"
+    weight = 40
+    identifier = "link"
+    [languages.en.menu.main.params]
+        icon = "link"
+        newTab = true
+
+[languages]
+[languages.en]
+languageName = "English"
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en'
+title = "UWin AI"
+weight = 1
+[languages.en.params]
+description = "UWin AI"
+
+[[languages.en.widgets.homepage]]
+type = "search"
+
+[[languages.en.widgets.homepage]]
+type = "archives"
+params = { limit = 10 }
+
+[[languages.en.widgets.homepage]]
+type = "categories"
+params = { limit = 5 }
+
+[[languages.en.widgets.homepage]]
+type = "tag-cloud"
+params = { limit = 10 }
+
+[languages.zh-cn]
+languageName = "中文"
+contentDir = 'content/zh-cn'
+disabled = false
+languageCode = 'zh-cn'
+title = "UWin AI"
+weight = 2
+[languages.zh-cn.params]
+description = "UWin AI"
+
+[[languages.zh-cn.widgets.homepage]]
+type = "search"
+
+[[languages.zh-cn.widgets.homepage]]
+type = "archives"
+params = { limit = 10 }
+
+[[languages.zh-cn.widgets.homepage]]
+type = "categories"
+params = { limit = 5 }
+
+[[languages.zh-cn.widgets.homepage]]
+type = "tag-cloud"
+params = { limit = 12 }
+
+[params]
+disqusShortname = "uwinai"
+
+[params.sidebar]
+enabled = true
+emoji = "😄"
+subtitle = "sidebar_subtitle"
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png"
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/bw4uf"
+params.icon = "brand-github"
+
+[params.comments]
+enabled = true
+provider = "disqus"

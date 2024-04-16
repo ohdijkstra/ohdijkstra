@@ -1,0 +1,41 @@
+baseurl: https://ohdijkstra.github.io
+
+DefaultContentLanguage: zh-cn
+
+hasCJKLanguage: true
+
+languages:
+    en:
+        languageName: English
+        title: UWin AI
+        weight: 1
+        params:
+            description: UWin AI
+    zh-cn:
+        languageName: 中文
+        title: UWin AI
+        weight: 2
+        params:
+            description: UWin AI
+
+[params]
+  disqusShortname = "uwinai"
+
+  sidebar:
+        emoji: 😄
+        subtitle: 行至水穷处，坐看云起时。
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
+
+menu:
+    main: []
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/bw4uf
+          params:
+              icon: brand-github
+
